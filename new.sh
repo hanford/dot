@@ -1,9 +1,11 @@
-echo "attempting su"
+mkdir Projects
+cd Projects
+echo "Attempting to SU"
 su
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
-brew install automake
-brew install wget
-brew install git
+#ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
+#brew install automake
+#brew install wget
+#brew install git
 echo "Jack's Download for new machines"
 echo "Today is $(date)"
 mkdir Downloads
@@ -14,6 +16,7 @@ cd Downloads
   wget http://81.169.182.62/smcfancontrol_2_1.zip
   wget https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.dmg
   wget http://cachefly.alfredapp.com/Alfred_2.1.1_227.zip
+  open http://www.introversion.co.uk/prisonarchitect/builds/prisonarchitect-alpha15-macosx.zip
   echo "Downlaods are complete!!!!!!!!"
   sleep 3
   echo "unzipping"
