@@ -37,6 +37,7 @@ cd Downloads
   wget http://81.169.182.62/smcfancontrol_2_1.zip
   wget https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.dmg
   wget http://cachefly.alfredapp.com/Alfred_2.1.1_227.zip
+  wget http://www.macbartender.com/Demo/Bartender.zip
   open http://www.introversion.co.uk/prisonarchitect/builds/prisonarchitect-alpha15-macosx.zip
   echo "Downlaods are complete!!"
   sleep 5
