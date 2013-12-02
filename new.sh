@@ -16,7 +16,7 @@ echo "#####                                                  ######"
 echo "#############################################################"
 echo "#############################################################"
 echo "#############################################################"
-pause 'Press [enter] to begin the script, make sure you are running this in the home directory otherwise somethings wont run correctly'
+pause 'Press [enter] to begin the script, make sure you are running this in the home directory otherwise things will end up in the wrong place correctly'
 echo "Making Projects folder.."
 mkdir Projects
 cd Projects
