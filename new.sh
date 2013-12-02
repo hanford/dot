@@ -20,6 +20,7 @@ pause 'Press [enter] to begin the script, make sure you are running this in the 
 echo "Making Projects folder.."
 mkdir Projects
 cd Projects
+pwd
 echo "Attempting to SU"
 su
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
@@ -31,6 +32,7 @@ open http://pastie.org/8519392
 sleep 5
 mkdir Downloads
 cd Downloads
+pwd
   wget http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2.dmg
   wget https://download-chromium.appspot.com/dl/mac
   wget http://iterm2.com/downloads/stable/iTerm2_v1_0_0.zip
@@ -49,5 +51,6 @@ cd Downloads
   "unzipping complete, moving to downloads"
   sleep 3
     cd ../
+    pwd
     mv Downloads ../Downloads
 echo "Completed!"
