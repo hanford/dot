@@ -54,3 +54,5 @@ pwd
     pwd
     mv Downloads ../Downloads
 echo "Completed!"
+echo "oh my zsh"
+wget --no-check-certificate https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
