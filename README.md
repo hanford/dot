@@ -1,1 +1,1 @@
-This is where I am going to be keeping my scripts.. The reasoning behind this repo is because my wonderful macbook pro decided to die one day losing all of my applications
+A script I made for reinstalling OS X..  
