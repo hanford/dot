@@ -41,6 +41,7 @@ pwd
   wget http://cachefly.alfredapp.com/Alfred_2.1.1_227.zip
   wget http://www.macbartender.com/Demo/Bartender.zip
   wget http://media.steampowered.com/client/installer/steam.dmg
+  wget http://www.dm.origin.com/mac/download
   wget http://download.deluge-torrent.org/mac_osx/
   open http://www.introversion.co.uk/prisonarchitect/builds/prisonarchitect-alpha15-macosx.zip
   echo "Downlaods are complete!!"
