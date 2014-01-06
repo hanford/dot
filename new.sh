@@ -57,4 +57,7 @@ pwd
     mv Downloads ../Downloads
 echo "Completed!"
 echo "oh my zsh"
+sleep 5
+echo "Steeef theme for oh-my-zsh"
+sleep 3
 wget --no-check-certificate https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
