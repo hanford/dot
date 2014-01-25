@@ -43,6 +43,7 @@ pwd
   wget http://media.steampowered.com/client/installer/steam.dmg
   wget http://www.dm.origin.com/mac/download
   wget http://download.deluge-torrent.org/mac_osx/
+  wget http://jonathanhirz.com/files/macProTrash.zip
   open http://www.introversion.co.uk/prisonarchitect/builds/prisonarchitect-alpha15-macosx.zip
   echo "Downlaods are complete!!"
   sleep 5
@@ -50,6 +51,7 @@ pwd
   unzip mac
   unzip iTerm2_v1_0_0.zip
   unzip smcfancontrol_2_1.zip
+  unzip macProTrash.zip
   unzip Alfred_2.1.1_227.zip
   "unzipping complete, moving to downloads"
   sleep 3
