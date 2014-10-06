@@ -77,6 +77,9 @@ defaults write org.m0k.transmission WarningLegal -bool false
 # Show the app window when clicking the menu icon
 defaults write com.twitter.twitter-mac MenuItemBehavior -int 1
 
+# Circular Profile Pictures
+defaults write com.twitter.twitter-mac CircularAvatars -bool true
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
