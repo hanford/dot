@@ -4,6 +4,12 @@ defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
 # Increase window resize speed for Cocoa applications
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
+# Always open everything in Finder's list view. This is important.
+defaults write com.apple.Finder FXPreferredViewStyle Nlsv
+
+# Show the ~/Library folder.
+chflags nohidden ~/Library
+
 # Expand save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 
