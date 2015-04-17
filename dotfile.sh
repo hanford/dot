@@ -49,6 +49,12 @@ defaults write com.apple.Finder FXPreferredViewStyle -string "Nlsv"
 # Show the ~/Library folder
 chflags nohidden ~/Library
 
+# Power Chime
+defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app &
+
+# Kill Power Chime
+defaults write com.apple.PowerChime ChimeOnAllHardware -bool false;killall PowerChime
+
 # Enable highlight hover effect for the grid view of a stack (Dock)
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
