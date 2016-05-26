@@ -1,3 +1,6 @@
+# Set up a global .gitignore in to the root dir
+git config --global core.excludesfile '~/.gitignore'
+
 # Disable opening and closing window animations
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
 
