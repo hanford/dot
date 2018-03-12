@@ -1,0 +1,22 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 1,
+  "sublimeTextKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": false,
+  "javascript.validate.enable": false,
+  "workbench.panel.location": "bottom",
+  "workbench.activityBar.visible": true,
+  "git.autofetch": true,
+  "workbench.colorTheme": "One Dark Pro Vivid",
+  "files.insertFinalNewline": true,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Operator Mono'",
+  "editor.fontLigatures": true,
+  "files.trimTrailingWhitespace": true,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.keymap": "alternate"
+}
