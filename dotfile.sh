@@ -49,9 +49,6 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
 defaults write com.apple.Finder FXPreferredViewStyle -string "Nlsv"
 
-# Show the ~/Library folder
-chflags nohidden ~/Library
-
 # Power Chime
 defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app &
 
