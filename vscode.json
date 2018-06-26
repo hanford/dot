@@ -1,0 +1,15 @@
+{
+  "editor.fontFamily": "Operator Mono Lig",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "One Dark Pro Vivid",
+  "javascript.validate.enable": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.keymap": "alternate",
+  "gitlens.gitExplorer.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true
+  }
+}
