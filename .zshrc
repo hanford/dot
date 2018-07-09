@@ -14,6 +14,8 @@ publish () {
 
 alias g="git"
 alias nr="npm run"
+alias fpush="!git push --force origin $(git rev-parse --abbrev-ref HEAD);"
+alias gco="git checkout"
 
 git config --global user.name "Jack Hanford"
 git config --global user.email "jackhanford@gmail.com"
