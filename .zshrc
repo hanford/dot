@@ -17,12 +17,6 @@ alias nr="npm run"
 alias fpush="git push --force origin $(git rev-parse --abbrev-ref HEAD);"
 alias gco="git checkout"
 
-git config --global user.name "Jack Hanford"
-git config --global user.email "jackhanford@gmail.com"
-git config --global color.ui auto
-git config --global advice.pushNonFastForward false
-git config --global advice.statusHints false
-
 export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 
 # if we have autojump installed, let's use it
