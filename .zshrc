@@ -13,11 +13,14 @@ publish () {
 }
 
 alias g="git"
+alias gp="git push"
+alias gc="git commit"
 alias nr="npm run"
-alias fpush="git push --force origin $(git rev-parse --abbrev-ref HEAD);"
+# alias fpush="git push --force origin $(git rev-parse --abbrev-ref HEAD);"
 alias gco="git checkout"
 
 export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
+export PATH=~/.npm-global/bin:$PATH
 
 # if we have autojump installed, let's use it
 [ -f /usr/local/etc/profile.d/autojump.sh ] && source /usr/local/etc/profile.d/autojump.sh

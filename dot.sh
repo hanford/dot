@@ -102,6 +102,11 @@ echo ""
 echo "Installing zsh"
 brew install zsh
 
+echo ""
+echo "Create new npm global directory and set it as prefix"
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+
 for app in "Address Book" "Calendar" "Contacts" "Dashboard" "Dock" "Finder" \
 	"Mail" "Safari" "SystemUIServer" "Terminal" "Transmission" \
 	"Twitter" "iTunes"; do
