@@ -18,6 +18,7 @@ alias gc="git commit"
 alias nr="npm run"
 # alias fpush="git push --force origin $(git rev-parse --abbrev-ref HEAD);"
 alias gco="git checkout"
+alias gcob="git checkout -b"
 
 export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
