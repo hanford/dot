@@ -17,6 +17,7 @@ alias gp="git push"
 alias gc="git commit"
 alias nr="npm run"
 # alias fpush="git push --force origin $(git rev-parse --abbrev-ref HEAD);"
+alias gs="git status"
 alias gco="git checkout"
 alias gcob="git checkout -b"
 
