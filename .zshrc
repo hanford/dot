@@ -15,6 +15,7 @@ publish () {
 alias g="git"
 alias gp="git push"
 alias gc="git commit"
+alias gcb="git commit -b"
 alias nr="npm run"
 # alias fpush="git push --force origin $(git rev-parse --abbrev-ref HEAD);"
 alias gs="git status"
