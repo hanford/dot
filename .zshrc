@@ -22,6 +22,8 @@ alias nr="npm run"
 alias gs="git status"
 alias gco="git checkout"
 alias gcob="git checkout -b"
+alias cat="bat"
+alias ping="prettyping --nolegend"
 
 export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH

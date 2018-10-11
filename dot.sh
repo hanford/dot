@@ -103,6 +103,19 @@ echo "Installing zsh"
 brew install zsh
 
 echo ""
+echo "Installing bat"
+brew install bat
+
+echo ""
+echo "Installing prettyping"
+brew install prettyping
+
+echo ""
+echo "Installing fzf"
+brew install fzf
+$(brew --prefix)/opt/fzf/install
+
+echo ""
 echo "Create new npm global directory and set it as prefix"
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
