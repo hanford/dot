@@ -1,8 +1,9 @@
 {
-  "editor.fontFamily": "Operator Mono Lig",
+  "editor.fontFamily": "Dank Mono",
+  "terminal.integrated.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
-  "workbench.colorTheme": "One Dark Pro Vivid",
+  "workbench.colorTheme": "Night Owl",
   "javascript.validate.enable": false,
   "gitlens.statusBar.enabled": false,
   "gitlens.keymap": "alternate",
@@ -11,5 +12,18 @@
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.advanced.messages": {
       "suppressShowKeyBindingsNotice": true
-  }
+  },
+  "spotify.showSignOutButton": false,
+  "window.zoomLevel": 0,
+  "breadcrumbs.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorCustomizations": {
+      "activityBar.background": "#000C1D",
+      "activityBar.border": "#102a44",
+      "sideBar.background": "#001122",
+      "sideBar.border": "#102a44",
+      "sideBar.foreground": "#8BADC1"
+  },
+  "editor.fontSize": 14,
 }
