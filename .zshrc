@@ -12,6 +12,7 @@ publish () {
   npm version $1 && git push origin --tags
 }
 
+alias install="install-resolver"
 alias g="git"
 alias ga="git add ."
 alias gp="git push"

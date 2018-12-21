@@ -95,6 +95,10 @@ echo "Installing n node version manager"
 npm i -g n
 
 echo ""
+echo "Installing install-resolver"
+npm i -g install-resolver
+
+echo ""
 echo "Installing autojump"
 brew install autojump
 
