@@ -30,5 +30,13 @@ alias ping="prettyping --nolegend"
 export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 
+git config --global user.name "Jack Hanford"
+git config --global user.email "jackhanford@gmail.com"
+git config --global help.autocorrect 1
+
+git config --global color.ui auto
+git config --global advice.pushNonFastForward false
+git config --global advice.statusHints false
+
 # if we have autojump installed, let's use it
 [ -f /usr/local/etc/profile.d/autojump.sh ] && source /usr/local/etc/profile.d/autojump.sh
