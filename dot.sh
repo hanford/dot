@@ -124,6 +124,10 @@ echo "Create new npm global directory and set it as prefix"
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
 
+echo ""
+echo "Install .zshrc auto suggestions"
+brew install zsh-autosuggestions
+
 for app in "Address Book" "Calendar" "Contacts" "Dashboard" "Dock" "Finder" \
 	"Mail" "Safari" "SystemUIServer" "Terminal" "Transmission" \
 	"Twitter" "iTunes"; do

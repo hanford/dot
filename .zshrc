@@ -40,3 +40,5 @@ git config --global advice.statusHints false
 
 # if we have autojump installed, let's use it
 [ -f /usr/local/etc/profile.d/autojump.sh ] && source /usr/local/etc/profile.d/autojump.sh
+
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
