@@ -1,3 +1,4 @@
+  
 #!/usr/bin/env bash
 
 autoload -U promptinit; promptinit
@@ -12,7 +13,9 @@ publish () {
   npm version $1 && git push origin --tags
 }
 
-alias install="install-resolver"
+alias pg_start="launchctl load ''"
+alias pg_stop="launchctl unload ''"
+
 alias g="git"
 alias ga="git add ."
 alias gp="git push"
@@ -26,6 +29,9 @@ alias c="code"
 alias gcob="git checkout -b"
 alias cat="bat"
 alias ping="prettyping --nolegend"
+alias kn="killall node -9"
+alias ..="cd ../"
+alias ....="cd ../../"
 
 export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
