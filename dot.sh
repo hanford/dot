@@ -128,6 +128,10 @@ echo ""
 echo "Install .zshrc auto suggestions"
 brew install zsh-autosuggestions
 
+echo ""
+echo "Install smcfancontrol"
+brew cask install smcfancontrol
+
 for app in "Address Book" "Calendar" "Contacts" "Dashboard" "Dock" "Finder" \
 	"Mail" "Safari" "SystemUIServer" "Terminal" "Transmission" \
 	"Twitter" "iTunes"; do
