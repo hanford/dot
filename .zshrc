@@ -1,9 +1,12 @@
-  
 #!/usr/bin/env bash
 
-autoload -U promptinit; promptinit
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
-prompt pure
+fpath+=$HOME/.zsh/pure
+
+autoload -Uz promptinit;
+promptinit;
+prompt pure;
 
 publish () {
   git fetch
@@ -21,7 +24,7 @@ alias ga="git add ."
 alias gp="git push"
 alias gc="git commit"
 alias gpu="git push origin -u"
-alias nr="npm run"
+# alias nr="npm run"
 # alias fpush="git push --force origin $(git rev-parse --abbrev-ref HEAD);"
 alias gs="git status"
 alias gco="git checkout"
@@ -33,8 +36,8 @@ alias kn="killall node -9"
 alias ..="cd ../"
 alias ....="cd ../../"
 
-export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
-export PATH=~/.npm-global/bin:$PATH
+# export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
+# export PATH=~/.npm-global/bin:$PATH
 
 git config --global user.name "Jack Hanford"
 git config --global user.email "jackhanford@gmail.com"
@@ -44,7 +47,19 @@ git config --global color.ui auto
 git config --global advice.pushNonFastForward false
 git config --global advice.statusHints false
 
-# if we have autojump installed, let's use it
-[ -f /usr/local/etc/profile.d/autojump.sh ] && source /usr/local/etc/profile.d/autojump.sh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# if we have autojump installed, let's use it
+  [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+# source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+autoload -Uz compinit
+compinit
+
+# Bun completions
+[ -s "/Users/jackhanford/.bun/_bun" ] && source "/Users/jackhanford/.bun/_bun"
+
+# Bun
+export BUN_INSTALL="/Users/jackhanford/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
